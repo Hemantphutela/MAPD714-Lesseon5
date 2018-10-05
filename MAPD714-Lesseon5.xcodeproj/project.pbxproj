@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		41C6F3822166D26A002521D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6F3812166D26A002521D9 /* AppDelegate.swift */; };
-		41C6F3842166D26A002521D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6F3832166D26A002521D9 /* ViewController.swift */; };
 		41C6F3872166D26A002521D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C6F3852166D26A002521D9 /* Main.storyboard */; };
 		41C6F3892166D26C002521D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C6F3882166D26C002521D9 /* Assets.xcassets */; };
 		41C6F38C2166D26C002521D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C6F38A2166D26C002521D9 /* LaunchScreen.storyboard */; };
 		41C6F3972166D26C002521D9 /* MAPD714_Lesseon5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6F3962166D26C002521D9 /* MAPD714_Lesseon5Tests.swift */; };
 		41C6F3A22166D26C002521D9 /* MAPD714_Lesseon5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6F3A12166D26C002521D9 /* MAPD714_Lesseon5UITests.swift */; };
+		41C6F3B02166D59B002521D9 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6F3AF2166D59B002521D9 /* SwitchingViewController.swift */; };
+		41C6F3B22166D9A6002521D9 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6F3B12166D9A6002521D9 /* BlueViewController.swift */; };
+		41C6F3B42166D9B9002521D9 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C6F3B32166D9B9002521D9 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		41C6F37E2166D26A002521D9 /* MAPD714-Lesseon5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-Lesseon5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C6F3812166D26A002521D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41C6F3832166D26A002521D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41C6F3862166D26A002521D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C6F3882166D26C002521D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C6F38B2166D26C002521D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		41C6F39D2166D26C002521D9 /* MAPD714-Lesseon5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAPD714-Lesseon5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C6F3A12166D26C002521D9 /* MAPD714_Lesseon5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPD714_Lesseon5UITests.swift; sourceTree = "<group>"; };
 		41C6F3A32166D26C002521D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C6F3AF2166D59B002521D9 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		41C6F3B12166D9A6002521D9 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		41C6F3B32166D9B9002521D9 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				41C6F3812166D26A002521D9 /* AppDelegate.swift */,
-				41C6F3832166D26A002521D9 /* ViewController.swift */,
+				41C6F3AF2166D59B002521D9 /* SwitchingViewController.swift */,
+				41C6F3B12166D9A6002521D9 /* BlueViewController.swift */,
+				41C6F3B32166D9B9002521D9 /* YellowViewController.swift */,
 				41C6F3852166D26A002521D9 /* Main.storyboard */,
 				41C6F3882166D26C002521D9 /* Assets.xcassets */,
 				41C6F38A2166D26C002521D9 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C6F3842166D26A002521D9 /* ViewController.swift in Sources */,
+				41C6F3B42166D9B9002521D9 /* YellowViewController.swift in Sources */,
 				41C6F3822166D26A002521D9 /* AppDelegate.swift in Sources */,
+				41C6F3B22166D9A6002521D9 /* BlueViewController.swift in Sources */,
+				41C6F3B02166D59B002521D9 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
